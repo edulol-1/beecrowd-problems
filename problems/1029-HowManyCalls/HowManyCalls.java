@@ -20,8 +20,6 @@ public class HowManyCalls {
     private static void inputToString() throws IOException {
         InputStreamReader ir = new InputStreamReader(System.in);
         BufferedReader in = new BufferedReader(ir);
-        String line = null;
-        String string = "";
         int cicles = Integer.parseInt(in.readLine());
         for (int i = 0; i < cicles; i++) {
             int n = Integer.parseInt(in.readLine());
